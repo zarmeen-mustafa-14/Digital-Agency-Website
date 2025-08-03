@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*---navbar----*/
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    height: 50px;
+    padding-left: 20px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 500;
+    padding-left: 50px;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav {
+    margin-left: 650px;
+}
+
+@media (max-width:880px) {
+    .navbar-nav {
+        margin-left: 0;
+    }
+    
+}
+
+.navbar-brand img {
+    height: 45px;
+    padding-bottom: 10px;
+}
+
+.fa-bars {
+    color: white;
+    font-weight: 500;
+} 
+
+.nav-item {
+    align-self: flex-end;
+    opacity: 0.8;
+}
+
+.navbar-toggle {
+    outline: none !important;
+}
+
+#navbarNav .nav-item {
+    transition: all 0.2s linear;
+}
+
+#navbarNav .nav-item:hover {
+    font-size: 17px;
+    opacity: 1;
+    font-weight: bold;
+}
+
+/*----banner----*/
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+
+#banner .container .row .col-md-6 {
+    margin-top: 30px;
+    margin-bottom: -125px;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.play-button {
+    width: 45px;
+    margin: 20px;
+}
+
+.play-button-a {
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/*-----services----*/
+
+#services {
+    padding: 100px 0; 
+}
+
+#services .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .container .row .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border: 2px solid #5f1782;
+    transition: 0.3s;
+}
+
+#services .container .row .card:hover{
+    transform: translateY(-8px);
+}
+
+.service-img {
+    margin-top: 20px;
+}
+
+.card-body h4 {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.underline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.underline .underline-1 {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    height: 4px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+
+.underline .underline-2 {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    height: 10px;
+    width: 60px;
+    position: absolute;
+    z-index: 2;
+}
+
+.button-1{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    width: 150px;
+    transition: 0.5s;
+}
+
+/*about us section*/
+
+#about-us {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.col-md-6 {
+    font-size: 25px;
+    padding: 50px;
+}
+
+#about-us .container h2 {
+    margin-top: 30px;
+}
+
+.col-md-6 h3 {
+    margin: 30px 0;
+    text-align: left;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.col-md-6 ul {
+    margin: 30px 0;
+    text-align: left;
+}
+
+/*----testimonilas----*/
+
+#testimonial {
+    padding: 120px 0 80px 0;
+}
+
+#testimonial .col-md-5 img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.img {
+    display: flex;
+}
+
+.para-img {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.card-body p {
+    text-align: left;
+}
+
+/*-------contact------*/
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    height: 400px;
+   
+}
+
+#contact .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#contact h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact .container a img {
+    height: 90px;
+    width: 90px;
+    transition: 0.4s;
+    margin-top: 50px;
+}
+
+#contact .container a img:hover {
+    transform: translateY(-10px);
+}
+
+/*-----footer-----*/
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    background-color: white;
+    padding: 0 !important;
+    color: white;
+}
+
+#footer .wave {
+    width: 206.6vh;
+}
+
+.footer-logo {
+    height: 50px;
+    padding-bottom: 10px;
+}
+
+#footer .container .row {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer .container .row .footer-box-2 p {
+    padding: 20px 15px;
+}
+
+#footer .container .row .footer-box-3 label {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    justify-content: space-around;
+}
+
+.button-2 {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    width: 150px;
+}
